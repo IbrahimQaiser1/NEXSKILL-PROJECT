@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundCloud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.jpg" alt="SoundCloud Logo">
+                SoundCloud
+            </li>
+            <li><a href="#" style="font-weight: bolder;">Home</a></li>
+            <li><a href="#" style="font-weight: bolder;">About</a></li>
+            <li><a href="#" style="font-weight: bolder;">Feed</a></li>
+            <li><a href="#" style="font-weight: bolder;">Library</a></li>
+            <label for="searchbar" style="display: none;">Search</label>
+            <input type="text" name="search" id="searchbar" placeholder="Search" required>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Top 5  Songs Of Sidhu Mossa Wala</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img src="410.jpg" alt="410 Cover">
+                    <span>Mossawala 410</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fas fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="drippy.jpg" alt="Drippy Cover">
+                    <span>Mossawala Drippy</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fas fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="deathroute.jpg" alt="Death Route Cover">
+                    <span>Death Route</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fas fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="diellame.jpg" alt="Dilemma Cover">
+                    <span>Mossawala Dilemma</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fas fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="goat.jpg" alt="GOAT Cover">
+                    <span>Mossawala GOAT</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fas fa-play-circle"></i></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songcover"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="gif.gif" width="42px" alt="Sidhu Moosawala">
+            Sidhu Moosawala
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+   
